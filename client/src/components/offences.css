@@ -1,0 +1,187 @@
+* {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.mainColumn {
+  margin: auto;
+  padding-left: 300px;
+}
+
+.mainColumn h1 {
+  font-size: 34px;
+}
+.offencesBtn {
+  margin: auto;
+  border: none;
+  background: none;
+  text-decoration: underline;
+  color: #4ab584;
+}
+
+.mainColumn #offencesName {
+  margin: auto;
+  font-size: 12px;
+  color: #4ab584;
+}
+
+.toggleBtn {
+  background-color: #292b2f;
+  border: none;
+  color: #4ab584;
+  width: 80px;
+  margin: 10px;
+  margin-top: 30px;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+.toggleBtn:focus {
+  background-color: #4ab584;
+  color: white;
+  outline: 0;
+}
+.sideColumn {
+  position: fixed;
+  width: 300px;
+  background-color: #202225;
+  overflow-y: scroll;
+  top: 0;
+  bottom: 0;
+}
+.offencesTable {
+  position: relative;
+  border-collapse: collapse;
+  width: 100%;
+  margin: auto;
+}
+
+.tableBtn {
+  background-color: #292b2f;
+  border: none;
+  color: #4ab584;
+  width: 280px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.tableBtn:hover {
+  background-color: #4ab584;
+  color: white;
+}
+
+.tableBtn:focus {
+  background-color: #4ab584;
+  color: white;
+  outline: 0;
+}
+
+.filterArea {
+  width: 250px;
+  margin: auto;
+  margin-top: 10px;
+  height: 60px;
+}
+.param {
+  float: left;
+  border: 3px;
+  background-color: #202225;
+  padding: 5px;
+  margin: 5px;
+  height: 20px;
+  border-radius: 10px;
+  outline: none;
+  color: white;
+}
+
+.filterBtn {
+  float: left;
+  border: 1px;
+  width: 30px;
+  background-color: #202225;
+  margin-bottom: 5px;
+  height: 30px;
+  border-radius: 50%;
+  outline: none;
+  color: white;
+}
+
+.searchBar {
+  width: 230px;
+  border: 3px;
+  background-color: #202225;
+  padding: 5px;
+  height: 20px;
+  border-radius: 10px;
+  outline: none;
+  color: white;
+  margin: auto;
+}
+.searchTable {
+  border-collapse: collapse;
+  margin: auto;
+  margin-top: 10px;
+  background: #36393f;
+  box-shadow: 5px 10px 8px #212121;
+  border: 2px solid #36393f;
+}
+
+.mapArea {
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.searchTable td {
+  font-size: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  color: white;
+}
+.searchTable #LGA {
+  width: 250px;
+}
+.searchTable #total {
+  width: 50px;
+}
+.searchTable th {
+  background: #2f3136;
+  color: white;
+  padding: 10px;
+  border: 2px solid #2f3136;
+}
+.searchTable tr {
+  border-bottom: 2px solid #2f3136;
+}
+.searchTable td:nth-child(even) {
+  border-left: 2px solid #2f3136;
+}
+
+.graphArea {
+  margin: auto;
+  margin-top: 40px;
+  width: 90%;
+}
+.Map {
+  width: 100px;
+  height: 100px;
+  background: white;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.ad:focus {
+  outline: 0;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #202225;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}

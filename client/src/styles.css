@@ -1,0 +1,57 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #2f3136;
+  margin: 0 auto 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 42px;
+  color: white;
+  padding: 50px 0px 0px 0px;
+}
+
+.navbar {
+  width: 180px;
+  margin: auto;
+}
+.container {
+  width: 100%;
+  padding-top: 50px;
+  margin-top: 20px;
+}
+.navbar button {
+  background-color: #292b2f;
+  border: none;
+  margin: auto;
+  color: #4ab584;
+  width: 80px;
+  margin-left: 10px;
+  float: left;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.navbar button:focus {
+  background-color: #4ab584;
+  color: white;
+  outline: 0;
+}
+.query {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+.box {
+  background: #36393f;
+
+  width: 300px;
+  height: 200px;
+  border-radius: 6px;
+  box-shadow: 5px 10px 8px #212121;
+  margin: 10px auto auto auto;
+  padding: 20px 0px 0px 0px;
+  border-radius: 10px;
+}
